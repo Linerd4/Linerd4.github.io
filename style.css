@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Fervojo-Regular";
+	src: url('fonts/Fervojo-Regular.otf');
+	format("opentype");	
+}
+
+@font-face {
+
+
+}
+
+body {
+	background-color: #1a1a1a;
+	font-family: Fervojo-Regular;
+	color: white;
+}
+
+footer {
+	font-size: x-small;
+}
+
+
+
+#main_title {
+	font-size: 3.125em;
+
+
+}
