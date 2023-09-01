@@ -1,0 +1,31 @@
+body {
+	background-color: #1a1a1a;
+	font-family: Fervojo-Regular;
+	color: white;
+}
+
+#main_title {
+	font-size: 3.125em;
+	font-family: Fervojo-Bold;
+	text-align: center;
+}
+
+#am1 {
+	float: left;
+}
+
+#am2 {
+	float: right;
+}
+
+#welcome_line {
+
+	font-size: 1.5em;
+	font-family: Fervojo-Medium;
+	text-align: center;
+
+}
+
+footer {
+	font-size: x-small;
+}
