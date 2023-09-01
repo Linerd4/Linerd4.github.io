@@ -2,6 +2,9 @@ body {
 	background-color: #1a1a1a;
 	font-family: Fervojo-Regular;
 	color: white;
+	font-size: 2em;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #main_title {
@@ -12,10 +15,12 @@ body {
 
 #am1 {
 	float: left;
+	padding-left: 10%;
 }
 
 #am2 {
 	float: right;
+	padding-right: 10%;
 }
 
 #welcome_line {
@@ -23,9 +28,24 @@ body {
 	font-size: 1.5em;
 	font-family: Fervojo-Medium;
 	text-align: center;
-
+	padding-top: 0.5%;
 }
 
+#snms {
+	text-align: right;
+}
+
+
 footer {
-	font-size: x-small;
+	font-size: 0.5em;
+}
+
+footer a:link {
+	color: red;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+
 }
