@@ -24,7 +24,6 @@ body {
 }
 
 #welcome_line {
-
 	font-size: 1.5em;
 	font-family: Fervojo-Medium;
 	text-align: center;
@@ -34,7 +33,6 @@ body {
 #snms {
 	text-align: right;
 }
-
 
 footer {
 	font-size: 0.5em;
@@ -47,5 +45,5 @@ footer a:link {
 
 footer a:hover {
 	text-decoration: underline;
-
 }
+
