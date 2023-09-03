@@ -34,8 +34,21 @@ body {
 	text-align: right;
 }
 
+#tags {
+	width: 50%;
+	float: left;
+}
+
+#articles {
+	width: 50%;
+	float: right;
+}
+
+
 footer {
 	font-size: 0.5em;
+	width: 500px;
+	clear: right;
 }
 
 footer a:link {
