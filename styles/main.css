@@ -14,8 +14,8 @@ body {
 
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
 	background-color: #0040ff;
 	border-style: double;
 	text-align: right;
@@ -57,7 +57,47 @@ body {
 #tags {
 	width: 50%;
 	float: left;
+	list-style-type: none;
 }
+
+#interests, #rec_arts {
+	font-family: Fervojo-Bold;
+	font-size: 1.3em;
+	text-align: center;
+
+}
+
+#listag {
+	padding-left: 0%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+
+}
+
+.li1 {
+	text-align: left;
+	list-style: inside;
+	padding-left: 15%;
+	font-family: Mars-Project;
+	list-style-type: none;
+}
+
+.li2 {
+	text-align: center;
+	list-style: inside;
+	list-style-type: none;
+}
+
+.li3 {
+	text-align: right;
+	list-style: inside;
+	padding-right: 15%;
+	font-family: Protique Medium;
+	list-style-type: none;
+}
+
+.art_title:w
+
 
 #articles {
 	width: 50%;
