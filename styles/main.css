@@ -82,7 +82,6 @@ body {
 	padding-left: 0%;
 	margin-top: 0%;
 	margin-bottom: 0%;
-
 }
 
 .li1 {
@@ -122,8 +121,10 @@ body {
 	text-align: center;
 	width: 75%;
 	margin: auto;
-	border-style: solid;
-	border-radius: 10%;
+	border-style: double;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 5%;
 }
 
 .art_title {
@@ -160,3 +161,6 @@ footer a:hover {
 	text-decoration: underline;
 }
 
+footer a:visited {
+	color: red;
+}

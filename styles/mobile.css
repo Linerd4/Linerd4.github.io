@@ -1,11 +1,12 @@
-@media (max-width: 700px){
+/*	MOBILE VIEW	*/
+
+@media (max-width: 900px){
 
 	body {
 		font-size: 1.3em;
 		padding-left: 4%;
 		padding-right: 4%;
 		margin: 0% 0% 0% 0%;
-
 	}
 
 
@@ -31,11 +32,13 @@
 
 	#tpomo {
 		margin-top: 5%;
+		padding-left: 0%;
 	}
 
 	#snms {
 		margin-top: 0%;
 		margin-bottom: 0%;
+		padding-right: 0%;
 	}
 
 
