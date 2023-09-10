@@ -44,8 +44,13 @@ body {
 	padding-top: 0.5%;
 }
 
+#tpomo {
+	padding-left: 28%;
+}
+
 #snms {
 	text-align: right;
+	padding-right: 28%;
 }
 
 
@@ -60,11 +65,17 @@ body {
 	list-style-type: none;
 }
 
+#tags a {
+	text-decoration: none; 
+	color: white;
+}
+
+
 #interests, #rec_arts {
 	font-family: Fervojo-Bold;
 	font-size: 1.3em;
 	text-align: center;
-
+	color: orange;
 }
 
 #listag {
@@ -96,14 +107,41 @@ body {
 	list-style-type: none;
 }
 
-.art_title:w
-
-
 #articles {
 	width: 50%;
 	float: right;
+	align-items: center;
 }
 
+#articles > ul {
+	padding-left: 0%;
+}
+
+.article {
+	list-style-type: none;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	border-style: solid;
+	border-radius: 10%;
+}
+
+.art_title {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 1.4em;
+
+}
+
+.art_tldr {
+	font-family: "Untold History";
+	font-size: 0.7em;
+}
+
+.rel_tags {
+	text-align: right;
+	font-size: 0.6em;
+}
 
 /*#################### FOOTER ####################*/
 

@@ -4,6 +4,8 @@
 		font-size: 1.3em;
 		padding-left: 4%;
 		padding-right: 4%;
+		margin: 0% 0% 0% 0%;
+
 	}
 
 
@@ -17,11 +19,24 @@
 		margin-bottom: 0px;
 	}
 
+	#am1, #am2 {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
 
+	#welcome_line {
+		margin-top: 10%;
+		margin-bottom: 0%;
+	}
 
+	#tpomo {
+		margin-top: 5%;
+	}
 
-
-
+	#snms {
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
 
 
 
@@ -37,13 +52,33 @@
 		width: 100%;
 		float: none;
 		order: 2;
+		margin-top: 10%;
 	}
 
 	#articles {
 		width: 100%;
 		float: none;
 		order: 1;
+		margin-top: 10%;
 	}
+
+
+
+
+
+
+
+
+	/*#################### MOBILE FOOTER ####################*/
+
+
+	footer {
+		width: 100%;
+
+	}
+
+
+
 
 
 
