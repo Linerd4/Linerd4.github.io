@@ -1,0 +1,43 @@
+@media (min-width: 900px) {
+
+	body {
+		padding-left: 5%;
+		padding-right: 5%;
+		font-family: Fervojo-Regular;
+		font-size: 2em;
+	}
+
+	#home {
+		float: left;
+		text-decoration: none;
+		color: red;
+	}
+
+	#random {
+		float: right;
+		text-decoration: none;
+		color: red;
+	}
+
+	#title {
+		clear: both;
+		font-size: 3.2em;
+		text-align: center;
+		font-family: Fervojo-Bold;
+	}
+
+	#subtitle {
+		font-size: 2.2em;
+		text-align: center;
+		font-family: Fervojo-Medium;
+	}
+
+	#stuff > p {
+		font-size: 1.2em;
+	}
+
+	#timedate {
+		float: right;
+		color: #36454F;
+	}
+}
