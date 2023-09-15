@@ -3,20 +3,17 @@
 	body {
 		padding-left: 5%;
 		padding-right: 5%;
-		font-family: Fervojo-Regular;
 		font-size: 2em;
 	}
 
 	#home {
 		float: left;
-		text-decoration: none;
-		color: red;
+		margin-top: 1%;
 	}
 
 	#random {
 		float: right;
-		text-decoration: none;
-		color: red;
+		margin-top: 1%;
 	}
 
 	#title {
@@ -24,12 +21,13 @@
 		font-size: 3.2em;
 		text-align: center;
 		font-family: Fervojo-Bold;
+		margin-bottom: 0%;
 	}
 
 	#subtitle {
 		font-size: 2.2em;
 		text-align: center;
-		font-family: Fervojo-Medium;
+		margin-top: 3%;
 	}
 
 	#stuff > p {
