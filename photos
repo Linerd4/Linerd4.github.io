@@ -1,0 +1,21 @@
+<html>
+	
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="random/rickroll.css" rel="stylesheet">
+		<link href="styles/fonts.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+		<h1 id="lol">Sei statǝ rickrollatǝ!!!!!</h1>
+		<div class="container">
+			<img id="giff" src="random/rick-roll.gif">
+		</div>
+		<h1 id="lol">Sono bellissimo, non credi?</h1>
+
+	</body>
+
+
+
+</html>
