@@ -1,0 +1,13 @@
+Come eliminare Discord
+
+Prima di cominciare: ognuno ha le proprie necessità. Discord è molto comodo per le community, io e i miei amici abbiamo potuto privarcene, ma questo non vuol dire che tutti potrebbero essere in grado di farlo.
+
+Anzitutto: siamo un gruppo di tre amici che prima utilizzavano Discord per qualsiasi cosa: chat, chiamate per studiare assieme, una chat molto bella, i canali, e soprattutto una condivisione dello schermo molto molto buona. Per un utente standard la condivisione dello schermo massima consentita sta sui 720p a 30 fps, mentre invece per un utente nitro la risoluzione è "sorgente" (ad esempio, se un utente ha uno schermo a 4k con una frequenza di aggiornamento pari a 144 Hz Discord mostrerà una condivisione dello schermo in 4k a 120 o 144 fps). Discord come design e interfaccia utente non mi dispiaceva affatto, ma lato tecnico lo disprezzavo particolarmente. Ho sempre avuto a che fare con pc non molto potenti, e Discord gira sul framework Electron. Long short story (anche perchè non conosco molti dettagli tecnici): è come tenere un secondo browser aperto in background. Di certo non è un problema per un pc da gaming, ma per un portatile vecchio di 12 anni come quello che sto usando in questo preciso istante è difficile da tenere in background con altre attività in funzionamento. Però bene o male ha sempre funzionato discretamente (ovviamente condividevo lo schermo molto molto di rado per i motivi poc'anzi detti).
+
+La svolta è avvenuta l'estate dell'anno scorso, quando noi tre siamo diventati un po' più coscienti rispetto al tema della privacy online: Discord è per il 40% posseduta dalla Tencent. E a quel punto abbiamo detto: addio. Dove potremmo stabilirci allora in pianta stabile? Che altro possiamo usare?
+
+Un po' ne abbiamo provate: Signal, per un bel po' Element, per un piccolissimo periodo addirittura un protocollo XMPP, per poi arrivare all'ultimo sul quale ci troviamo bene.
+
+Signal: È una piattaforma di messaggistica istantanea con un forte focus sulla privacy; le applicazioni desktop e mobile erano molto carine, ma laggavano su entrambi i miei dispositivi. E inoltre la condivisione dello schermo era indecente, buona soltanto per leggere degli articoli insieme. Non è durato molto.
+
+Element: fondato sul protocollo Matrix che a sua volta si fonda sull'idea di una rete di messaggistica istantanea decentralizzata. 

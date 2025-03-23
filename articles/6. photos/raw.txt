@@ -1,0 +1,46 @@
+Di recente mi sono reso conto che il modo in cui mantenevo le mie foto non era particolarmente corretto ed efficace, almeno dal mio punto di vista: tutte le foto e video che avevo sul computer e su altri dispositivi di archiviazione pesavano intorno ai 5 gigabyte (diciamolo francamente: sono ancora pochi), che comprendono sia foto e video scattate e registrati dal mio telefono, che media ricevuti da WhatsApp che avevo salvato indiscriminatamente. Inoltre, tutto ciò che avevo creato col mio telefono era mantenuto in formato originale, fatto che avrà un impatto più avanti.
+
+Questo è valso per me: 5 gigabyte di foto e video mi davano fastidio. La cosa più disturbante era non avere uno spazio online di archiviazione dove memorizzarli: ho cancellato un anno e mezzo fa qualunque account Google io avessi per questioni di privacy, dunque non avevo più accesso ad un Drive, o comunque Cloud, sicuro. Fino a poco fa mi sono arrangiato con un paio di hard disk che preservo nell'armadio, ma a lungo andare non è la soluzione più efficace. Avevo bisogno di trovare un nuovo spazio in cui archiviare le mie foto e video.
+
+Un servizio di storage che rispetti la privacy e che non abbia costi proibitivi, ovviamente.
+
+Dopo svariate ricerche su Google mi sono imbattuto in un servizio chiamato ente.io [link]; è raccomandato su privacy guides [link], quindi dal punto di vista della privacy posso anche evitare di spendere altri byte qui in discussione. C'era un piccolo problema: c'è effettivamente un piano gratuito, ma da "soli" 5 gigabyte. E con la quantità di media che ho io, a primo impatto è stato estremamente limitante, e per questo fatto stavo quasi pensando di non considerare più ente.io come un'opzione interessante.
+
+Per un motivo e l'altro, ho scoperto che le foto di famiglia salvate sul computer di casa ammontano ad oltre 100 gigabyte. E la cosa mi ha preoccupato non poco, e mi ha fatto un attimo riflettere. C'è una qualche maniera per comprimere tutto questo? Di certo non con dei semplici zip o archivi comuni [magari trovare link da mettere x spiegazione], però un modo c'è. Ovverosia, ridurre la qualità delle foto.
+
+Lo confesso: sono sempre stato contro quest'idea, ero sempre dalla parte che tutte le foto dovessero mantenere la propria qualità ed integrità. Motivo? Non lo so, la prendevo quasi come un'ideologia indiscutibile. Era così e basta.
+Però quella quantità immensa di foto mi ha fatto riflettere. Per poterle gestire meglio, un metodo efficiente ed efficace sarebbe quello di ridurre la qualità delle foto. Hm. All'inizio l'idea mi attirava poco.
+
+E allora sai che c'è? Proviamo a fare qualche test. Ho preso qualche foto e qualche programma di compressione; ho impostato un'integrità delle foto pari al 60% e il programma, al termine dell'esecuzione, ha riportato un decremento dello spazio occupato dalle immagini compresse in media del 70%. Ho confrontato le immagini prima e dopo: il più delle volte le differenze si notavano quando si zoomma. Ma di per sè la foto compressa era ancora di qualità più che accettabile.
+Allora mi sono detto: provo con questo modo a comprimere la mia intera galleria di foto. Risultato: da 3,6 gigabyte di foto sono passato a circa 800 megabyte di foto. In soldoni: le foto compresse occupano solo il 22% di quanto occupavano in precedenza.
+
+Il comando su linux: jpegoptim -p -P --max=60 -f *
+A chi non ha capito il comando sopra: tranquilli, non serve capirlo.
+
+Non guardo le foto che ho scattato tutti i sacrosanti giorni, non sono un fotografo e il più delle volte non sto a guardare i dettagli, la cosa che mi importa di più è che la fotografia mi rievochi il ricordo.
+Con questa consapevolezza ho cestinato l'ideologia spiegata sopra, ho creato un account su Ente e ho proceduto a caricare le mie foto.
+
+Un altro piccolo scoglio erano i video, sia registrati da me che ricevuti da WhatsApp, che ammontavano a 532 megabyte. Sicuramente caricabili su ente senza problemi, ma se esiste un modo per poterli comprimere e far loro occupare meno spazio sarebbe particolarmente gradito.
+Qualche piccola ricerca online, ancora qualche test, e con un encoder diverso (forse, non sono molto pratico in termini tecnici di media) i video compressi pesavano 150 megabyte, una riduzione del 72%. E la cosa più interessante è che i video non hanno perso alcun bit di qualità.
+Senza esitare minimamente, ho caricato tutto al volo su ente, felice e soddisfatto.
+
+In questo esatto momento, lo spazio che sto occupando su ente è pari a 1,2 gigabyte occupati su 5 gigabyte disponibili. Se a lungo tempo comprimo sia foto che video che ricevo e registro, questi 5 gigabyte mi basteranno per un bel po' di tempo.
+
+
+Dopodichè mi sono messo a smanettare un po' su ente, che funzionalità aveva e cosa potevo combinare.
+ente è particolarmente intelligente perchè ordina le fotografie per data secondo due criteri: le proprietà di ogni singola fotografia e il nome del file.
+Su Windows per vedere quando è stata creata una fotografia o un video, tasto destro sul file in questione, proprietà e leggete direttamente i dettagli del file in questione; i dati che riporta sono il primo criterio con il quale ente ordina le fotografie.
+Un potenziale problema in cui ero incappato era l'avere fotografie che sapevo essere scattate a distanza di tempo, ma le cui proprietà riportavano una data di creazione diversa da quella che sarebbe dovuta essere (TLDR non obbligatorio: spostando le fotografie da un pc all'altro, la data di creazione è stata sovrascritta con quella in cui ho effettuato lo spostamento delle foto). Ma qui è venuto in soccorso il secondo criterio di ordine: il nome del file. Il più delle volte, le foto/video che ho scattato o ricevuto riportavano come nome del file la data di creazione o di invio (e di quest'ultima spesso coincideva con la data di creazione) e, con un'accurata analisi, ente è riuscito a posizionare un'enorme parte di foto laddove dovevano stare cronologicamente.
+
+Primo risultato: avevo ottenuto quasi tutte le foto e video in ordine cronologico.
+
+Quello che ente offre inoltre è la creazione di album, ovverosia di insiemi di fotografie creati e organizzati dall'utente: allora mi sono messo a creare album per le 1900 e passa fotografie e passa che avevo, ottenendo 21 album.
+
+Secondo risultato: le fotografie sono ora organizzate in ricordi.
+
+Vedere tutti questi ricordi organizzati in un singolo posto ha avuto un certo impatto su di me. Certo, molti di loro me li ricordo anche senza fotografie, ma mi sono reso conto che vedevo il passato in maniera diversa.
+Per fare un esempio: prima di tutto questo consideravo la quinta come un anno che emotivamente è stato pesante per me, dunque non pensavo di avere ricordi particolarmente positivi di essi. Ma vedere le uscite che ho fatto con i miei amici, i luoghi che abbiamo visitato assieme mi hanno fatto ricredere e mi hanno portato a pensarla in maniera diversa; se prima lo vedevo come un anno duro e grigio, a rivedere questi ricordi in realtà adesso lo considero un anno speciale.
+
+E non sono solo i momenti non ordinari a renderlo speciale, ma anche la quotidianità che ho vissuto: osservando le fotografie mi sembra quasi di rivivere e respirare l'aria di quei momenti, e di sentire l'armonia che vivevo dentro quell'ambiente.
+
+Degli eventi più importanti possiedo perlopiù fotografie scattate dagli altri, e non farina del mio sacco. Quando vedo qualcuno scattare costantemente foto la cosa mi provoca fastidio, e mi viene sempre da dire: "Ma goditi piuttosto il momento! Se stai tutto il tempo a scattare foto alla fine cosa ti rimane?", ma adesso capisco che sia io che la persona dall'altra parte siamo agli estremi opposti. Scattare costantemente foto implica che la propria attenzione sia più spostata verso il proprio cellulare e non verso il momento in sè; d'altro canto non scattarle costituisce una privazione per il futuro, ci si priva della possibilità di rivivere nel futuro ricordi più nitidi, colorati e reali
